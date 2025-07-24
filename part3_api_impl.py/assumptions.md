@@ -1,5 +1,6 @@
 While implementing this API, some database details and business logic were not fully given. So, I made the following assumptions to complete the task.
-# Assumptions:
+
+## Assumptions:
 
 1. 'min_stock_limit' column is present in the 'products' table to store low stock threshold.
 
