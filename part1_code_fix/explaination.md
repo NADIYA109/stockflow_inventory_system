@@ -23,6 +23,7 @@ Check in the database if a product with the same SKU already exists before creat
 Impact:
 
 A product can exist in multiple warehouses, so saving warehouse_id in the product table is logically wrong.
+
 Fix:
 
 Remove warehouse_id from the Product model and instead manage warehouse-product relationships through the Inventory table.
